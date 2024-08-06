@@ -1,5 +1,5 @@
 [app]
 LOG_DIR="/app/logs"
-PORT=8000
+PORT=80
 HOST="0.0.0.0"
 TEMPLATE_FILE="template.html"
