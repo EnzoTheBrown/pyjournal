@@ -2,3 +2,4 @@
 LOG_DIR="/app/logs"
 PORT=8000
 HOST="0.0.0.0"
+TEMPLATE_FILE="template.html"

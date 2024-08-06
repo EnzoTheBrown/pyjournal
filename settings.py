@@ -10,4 +10,5 @@ settings = load_settings()
 LOG_DIR = settings['app']['LOG_DIR']
 PORT = settings['app']['PORT']
 HOST = settings['app']['HOST']
+TEMPLATE_FILE = settings['app']['TEMPLATE_FILE']
 

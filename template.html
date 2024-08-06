@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>PyJournal</title>
+        <script>
+            function setRefreshRate(seconds) {
+               setTimeout(function(){
+                   window.location.reload();
+                }, seconds * 1000); 
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Log Viewer</h1>
+        <div>
+            <button onclick="setRefreshRate(1)">Auto-refresh 1s</button>
+            <button onclick="setRefreshRate(5)">Auto-refresh 5s</button>
+            <button onclick="setRefreshRate(10)">Auto-refresh 10s</button>
+            <button onclick="setRefreshRate(60)">Auto-refresh 60s</button>
+            <button onclick="setRefreshRate(0)">Stop Auto-refresh</button>
+        </div>
+        <hr>
+        <h2>{{ log_file }}</h2>
+            <pre>
+                {{ log_content }}
+            </pre>
+        </hr>
+    </body>
+</html>
