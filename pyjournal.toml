@@ -1,0 +1,4 @@
+[app]
+LOG_DIR="/app/logs"
+PORT=8000
+HOST="0.0.0.0"
